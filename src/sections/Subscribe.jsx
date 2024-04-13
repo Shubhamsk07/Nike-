@@ -4,9 +4,9 @@ const Subscribe = () => {
   return (
     <section
     id="contact-us"
-    className='flex justify-between max-[1025px]:px-6  max-[770px]:flex-col max-container gap-10 max-[770]:px-1 px-16  items-center'>
+    className='flex justify-between  text-center  max-lg:flex-col max-container gap-10 max-lg:px-1 px-16  items-center'>
       
-        <h1 className='text-4xl leading[68px] font-palanquin font-bold'>Sign Up for <span className=' text-coral-red'>Updates</span><br />
+        <h1 className='text-4xl max-md:3xl  leading[68px] font-palanquin font-bold'>Sign Up for <span className=' text-coral-red'>Updates</span><br />
           & Newsletter</h1>
         <div className='flex lg:max-w-[40%] w-full items-center gap-5 p-2.5 rounded-full border-slate-gray border-[1px]'>
           <input

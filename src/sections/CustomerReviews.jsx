@@ -6,7 +6,7 @@ const CustomerReviews = () => {
     <section className='max-container '>
       <h1 className=' font-palanquin text-center text-4xl font-bold '>What Our <span className=' text-coral-red'>Customers</span> Say?</h1>
       <p className='mt-4 info-text text-center'>Hear genuine stories from our satisfied customers about<br/> their exceptional experiences with us.</p>
-      <div className='flex max-[770px]:flex-col items-center  flex-1 mt-24 gap-10 justify-evenly'>
+      <div className='flex max-lg:flex-col items-center  flex-1 mt-24 gap-10 justify-evenly'>
         {reviews.map((item)=>(
           <ReviewCard 
           imgURL={item.imgURL} 

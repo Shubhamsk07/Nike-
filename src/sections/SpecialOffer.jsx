@@ -6,7 +6,7 @@ import { arrowRight } from '../assets/icons';
 const SpecialOffer = () => {
   return (
     <section className='flex justify-between gap-10 items-center
-     max-[770px]:flex-col-reverse
+     max-lg:flex-col-reverse
     '>
       <div className='flex-1 flex justify-center items-center'>
         <img src={offer} alt=" offer" />

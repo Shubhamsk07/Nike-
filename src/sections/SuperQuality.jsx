@@ -3,7 +3,7 @@ import { shoe8 } from '../assets/images'
 
 const SuperQuality = () => {
   return (
-    <section className='flex flex-row max-[770px]:flex-col items-center justify-between gap-10'>
+    <section className='flex flex-row max-lg:flex-col items-center justify-between gap-10'>
       <div className=' flex flex-1 flex-col '>
         <h1 className='text-4xl font-bold font-palanquin mb-4 '  >
           We Provide You
@@ -12,7 +12,7 @@ const SuperQuality = () => {
         <br/>
         <p className='lg:max-w-lg text-slate-gray font-montserrat info-text '>Our dedication to detail and excellence ensures your satisfaction</p>
         <div className='flex gap-2'><button className=' bg-coral-red text-white text-lg font-montserrat px-7 py-4 rounded-full mt-10
-        max-[770px]:mb-6'>View details</button></div>
+        max-lg:mb-6'>View details</button></div>
       </div>
       <div className='flex-1  flex justify-center items-center w-full  '>
         <img src={shoe8}

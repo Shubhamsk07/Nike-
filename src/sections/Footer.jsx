@@ -6,7 +6,7 @@ import { copyrightSign } from '../assets/icons'
 const Footer = () => {
   return (
     <footer className='max-container px-6'>
-    <div className='flex max-[770px]:flex-col justify-between gap-20  '>
+    <div className='flex max-lg:flex-col justify-between gap-20  '>
       <div className='flex  flex-col '>
         <img src={footerLogo}
         alt="footer logo"

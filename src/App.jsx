@@ -15,7 +15,7 @@ import Nav from './components/Nav';
 
 function App() {
   return (
-    <main className='relative max-sm:w-[420px]'>
+    <main className='relative overflow-x-hidden'>
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b' >
         <Hero />
